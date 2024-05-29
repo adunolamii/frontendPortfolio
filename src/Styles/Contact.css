@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100px;
+}
+.header-conctact{
+    width: 380px;
+    height: 700px;
+    border: 3px solid blue;
+    background-color: pink;
+}
+.header1{
+    width: 400px;
+    height: 350px;
+    border: 2px solid red;
+    /* margin-top: auto; */
+}
+.header2{
+    width: 400px;
+    height: 350px;
+    border: 2px solid purple;
+  
+}
+.main-contact{
+    width: 300px;
+    height: 300px;
+    /* border: 2px solid purple; */
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 9px;
+} 
+.name, .email{
+   font-size: 18px;
+   color: white;
+}
+.input-name, .input-email{
+    width: 230px;
+    height: 25px;
+    /* border: 1px solid red; */
+    border-radius: 3px;
+    margin-top: 30px;
+      
+}
+.message{
+    font-size: 15px;
+    color: white;
+}
+.input-message{
+    width: 230px;
+    height: 25px;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.send{
+    width: 90px;
+    height: 28px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 30px;
+    border-inline: none;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: aqua;
+}
+@media(min-width:400px){
+    .header-conctact{
+        width: 1350px;
+        height: 590px;
+        border: 3px solid yellowgreen;
+        background-color: plum;
+                  
+    }
+    .contact-main{
+        width: 1300px;
+        height: 550px;
+        border: 2px solid yellow;
+          display: flex;
+          margin: auto;
+
+    }
+    .header1{
+        width: 600px;
+        height: 500px;
+        border: 2px solid red;
+       /* margin-left: 70px; */
+    }
+    .header2{
+        width: 600px;
+        height: 500px;
+        border: 2px solid purple;
+       /* margin-left: 150px; */
+    }
+    .main-contact{
+        width: 450px;
+        height: 350px;
+        border: 2px solid blue;
+        /* margin: auto; */
+        margin-top: 80px;
+        border-radius: 15px;
+    }
+    .name, .email{
+        font-size: 23px;
+        color:black;
+    }
+    .input-name, .input-email{
+        width: 360px;
+        height: 30px;
+        /* border: 1px solid red; */
+        border-radius: 3px;
+        margin-top: 30px;
+        margin-left: 4px;
+       
+    }
+    .message{
+        font-size: 20px;
+        color: black;
+        
+    }
+    .input-message{
+        width: 360px;
+        height: 30px;
+        /* border: 1px solid red; */
+        margin-top: 30px;
+        border-radius: 3px;
+    }
+    .send{
+        width: 120px;
+        height: 30px;
+        font-weight: bold;
+        border-radius: 20px;
+        margin-top: 30px;
+        border-inline: none;
+        cursor: pointer;
+        background-color: purple;
+        color: white;
+    }
+    .send:hover{
+        background-color: palevioletred;
+    }
+    .touch{
+        color: purple;
+        font-size: 35px;
+    }
+    .contact-img{
+        width: 300px;
+        height: 300px;
+        box-shadow:-3px,-3px,2px rgba(225,225,225,0.3),
+                    5px 5px 5px rgba(0,0,0,0.2),
+                    15px 15px 15px rgba(0,0,0,0.2);
+        border-radius:20px
+    }
+    .main-contact .contact-img{
+        
+    }
+
+    .contact-icon{
+        width: 300px;
+        height: 40px;
+        border: 1px solid green;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+}

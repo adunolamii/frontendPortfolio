@@ -1,0 +1,94 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.header-skill{
+    border: 2px solid red;
+    width: 370px;
+    height: 700px;
+}
+.main-skill{
+    width: 370px;
+    height: 600px;
+    border: 1px solid green;
+    margin: auto;
+}
+.main1-skill{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    margin: auto;
+}
+.main2-skill{
+    width: 300px;
+    height: 300px;
+    border: 2px solid yellow;
+    margin: auto;
+}
+@media(min-width:400px){
+    .header-skill{
+        width: 1350px;
+        height: 580px;
+        border: 2px solid blue;
+        display: flex;
+    }
+    .main-skill{
+        width: 900px;
+        height: 500px;
+        border: 2px solid green;
+        margin: auto;
+        display: grid;
+       
+        
+    }
+    .main1-skill{
+        width: 700px;
+        height: 200px;
+        border: 2px solid red;
+        margin: auto;
+        display: flex;
+    }
+    .html-box{
+        width: 300px;
+        height: 200px;
+        border: 1px solid orangered;
+        margin-left: 25px;
+    }
+    .html{
+    
+    }
+    .css-box{
+        width: 300px;
+        height: 200px;
+        border: 1px solid greenyellow;
+        margin-left: 50px;
+    }
+    .css{
+            width: 350px;
+            height: 180px;
+            color: purple;
+    }
+    .main2-skill{
+        width: 700px;
+        height: 200px;
+        border: 2px solid yellow;
+        margin: auto;
+        display: flex;
+    }
+    .js-box{
+        width: 300px;
+        height: 200px;
+        border: 1px solid teal;
+        margin-left: 25px;
+    }
+    .react-box{
+        width: 300px;
+        height: 200px;
+        border: 1px solid palevioletred;
+        margin-left: 50px;
+    }
+}
